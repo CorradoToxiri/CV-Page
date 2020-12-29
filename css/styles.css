@@ -17,3 +17,16 @@ H1 {
 H2 {
   color: #66BFBF;
 }
+H2:hover {
+  color: gold;
+}
+
+/*  CLASS Selectors */
+.myheading {
+  color: blue;
+}
+
+/*  ID Selectors */
+#myfitnessheading {
+  color: red;
+}
