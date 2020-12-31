@@ -1,5 +1,8 @@
 body {
   background-color: #EAF6F6;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
 hr {
@@ -12,21 +15,43 @@ hr {
 
 H1 {
   color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 400%;
 }
 
 H2 {
   color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
 }
 H2:hover {
   color: gold;
 }
 
-/*  CLASS Selectors */
-.myheading {
-  color: blue;
+H3 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+H3:hover {
+  color: gold;
 }
 
-/*  ID Selectors */
-#myfitnessheading {
-  color: red;
+/*  CLASS Selectors */
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.middle-container {
+}
+.bottom-container {
 }
